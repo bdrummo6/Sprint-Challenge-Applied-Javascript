@@ -31,25 +31,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
-DOM stands for Document Object Model and is an object representation of all the html elements of a webpage. We can use the DOM to make
- changes to a web pages structure, content and styling without. DOM allows us to make these changes without making direct changes to the html file.
+    DOM stands for Document Object Model and is an object representation of all the html elements of a webpage. We can use the DOM to
+    make changes to a web pages structure, content and styling without. DOM allows us to make these changes without making direct
+    changes to the html file.
 
 2. What is an event?
 
-An event is any interaction a user has with a website. These interactions can includes clicking a mouse, pressing a key down or up, scrolling through a page and many more. When an event occurs on a page it is known as trigger.
+    An event is any interaction a user has with a website. These interactions can includes clicking a mouse, pressing a key down or up,
+    scrolling through a page and many more. When an event occurs on a page it is known as trigger.
 
 3. What is an event listener?
 
-An event listener is a method attached to an element on a webpage that listens for a specific event to occur on that element. An event listener takes two arguments, the first is the event being listened for and the other is a callback, which is performs a certain action once the event occurs.
+    An event listener is a method attached to an element on a webpage that listens for a specific event to occur on that element. An    
+    event listener takes two arguments, the first is the event being listened for and the other is a callback, which is performs a         certain action once the event occurs.
 
 4. Why would we convert a NodeList into an Array?
 
-NodeLists are array-like structures but lack many of the methods provided by Array that make arrays easier to iterate through and manipulate. Some of these methods include forEach(), map(), and filter(). 
+    NodeLists are array-like structures but lack many of the methods provided by Array that make arrays easier to iterate through and      manipulate. Some of these methods include forEach(), map(), and filter().   
 
 5. What is a component?
 
-Components are reusable pieces of code that can help us create similar elements on a site in a quicker and more efficient manner. For
- example, if we want to make six similar buttons on a web page all we need to do is create one component and just put in each buttons information and create all six instead of creating six buttons one at a time.
+    Components are reusable pieces of code that can help us create similar elements on a site in a quicker and more efficient manner. For
+    example, if we want to make six similar buttons on a web page all we need to do is create one component and just put in each buttons   information and create all six instead of creating six buttons one at a time.
 
 ### Git Set up
 
@@ -68,7 +71,7 @@ Your finished project must include all of the following requirements:
 
 * [X] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [X] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
 * [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
