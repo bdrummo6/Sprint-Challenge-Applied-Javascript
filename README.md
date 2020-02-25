@@ -8,7 +8,8 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
-You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your Tead Lead and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in Applied JavaScript.
+You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek
+ support from your Team Lead and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in Applied JavaScript.
 
 You have three hours to complete this challenge. Plan your time accordingly.
 
@@ -30,38 +31,55 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    DOM stands for Document Object Model and is an object representation of all the html elements of a webpage. We can use the DOM to
+    make changes to a web pages structure, content and styling without. DOM allows us to make these changes without making direct
+    changes to the html file.
+
 2. What is an event?
+
+    An event is any interaction a user has with a website. These interactions can includes clicking a mouse, pressing a key down or up,
+    scrolling through a page and many more. When an event occurs on a page it is known as trigger.
 
 3. What is an event listener?
 
+    An event listener is a method attached to an element on a webpage that listens for a specific event to occur on that element. An    
+    event listener takes two arguments, the first is the event being listened for and the other is a callback, which is performs a         certain action once the event occurs.
+
 4. Why would we convert a NodeList into an Array?
+
+    NodeLists are array-like structures but lack many of the methods provided by Array that make arrays easier to iterate through and      manipulate. Some of these methods include forEach(), map(), and filter().   
 
 5. What is a component?
 
+    Components are reusable pieces of code that can help us create similar elements on a site in a quicker and more efficient manner. For
+    example, if we want to make six similar buttons on a web page all we need to do is create one component and just put in each buttons   information and create all six instead of creating six buttons one at a time.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [X] Fork the project into your GitHub user account
+* [X] Clone the forked project into a directory on your machine
+* [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the
+ project.
+* [X] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [X] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be
+ filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [X] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [X] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [X] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 
 Your stretch challenge is to write the functionality of a `Carousel` component. This is an advanced challenge, so you are not expected to be able to complete it. If you begin and don't finish, you should still submit with what you have. This is going to be a bit different because you are going to need to create some advanced functionality for the carousel. There is no need to request data for this exercise.
 
-* [ ] Complete the carousel functionality in `Carousel.js`
+* [X] Complete the carousel functionality in `Carousel.js`
 
 * [ ] If you complete the Carousel, add functionality so that the carousel slides when the buttons are pressed instead of just appearing.
 
